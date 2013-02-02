@@ -12,7 +12,9 @@ requirejs.config({
     backbone: '/components/backbone-amd/backbone',
     relational: '/components/backbone-relational/backbone-relational',
     text: '/components/requirejs-text/text',
-    domReady: '/components/requirejs-domready/domReady'
+    domReady: '/components/requirejs-domready/domReady',
+    "coffee-script": '/components/coffee-script/lib/coffee-script/coffee-script',
+    cs: '/components/require-cs/cs'
   },
   shim: {
     relational: {
